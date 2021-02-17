@@ -11,7 +11,7 @@ class Anagram
     return_array = []
     anagram.each do |words|
       (@word.split("").sort) == (words.split("").sort)
-      return_array << element
+      return_array << words
     end
     return_array
   end

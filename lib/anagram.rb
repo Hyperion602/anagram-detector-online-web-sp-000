@@ -5,5 +5,5 @@ class Anagram
   def intialize(blah)
     @blah = blah
   end
-  
+
 end

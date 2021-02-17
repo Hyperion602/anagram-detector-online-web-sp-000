@@ -2,13 +2,13 @@
 class Anagram
   attr_accessor :word
 
-  def intialize(word)
-    @word = word
+  def intialize(blah)
+    @blah = blah
   end
 
   def match(anagram)
     anagram.each do |words|
-      words.split("").sort == @word.split("").sort
+      words.split("").sort == @blah.split("").sort
     end
   end
 end
